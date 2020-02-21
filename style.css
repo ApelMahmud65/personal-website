@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins',sans-serif ;
+}
+
+.half_width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+    Padding-top: 5%;
+}
+
+.half_width:last-child{
+    margin-left: 0;
+    padding-left: 1%;
+}
+
+.padding-top{
+    padding-top: 15%;
+}
+
+.fixed-value{
+    padding-left: 5% !important;
+    padding-top: 18% ;
+}
+
+.half_width img{
+    width: 100%;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.name-highlight{
+    font-size: 50px;
+    color: #EC4C7A;
+}
+
+.half_width p{
+    padding: 40px 0;
+    color: #EC4C7A;
+}
+
+.link-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #605995,#EC4C7A);
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Background */
+section{
+    overflow: hidden;
+    height: 600px;
+    padding-bottom: 150px;
+}
+.top-section{
+    background: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ 
+}
+
+.Biography-area{
+    background: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 300px;
+}
+
+.work-area{
+    padding: 5%;
+    margin: 100px 0;
+    background: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+}
+
+.latest-work{
+    margin-left: 10%;
+    padding-left: 2%;
+    width: 80%;
+}
+.latest-work img{
+    width: 30%;
+}
+
+.work-header{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.client-area{
+    text-align: center;
+    padding: 5%;
+    margin-top: 100px;
+    background: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 550px;
+}
+
+.client-area h1{
+    padding-bottom: 2%;
+}
+
+.client-child{
+    padding: 2% 0;
+}
+
+.highlight{
+    color: #EC4C7A;
+}
+#anchor-btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #605995,#EC4C7A);
+    width: 50%;
+    margin: 2% 0;
+    padding: 60px 70px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#anchor-btn span{
+    font-size: 30px;
+    line-height: 2em;
+}
+
+footer{
+    margin-top: 40px;
+}
+
+footer p{
+    padding: 20px 0;
+    color: #EC4C7A;
+}
