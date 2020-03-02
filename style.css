@@ -1,6 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
-    margin: 0;
     font-family: 'Poppins',sans-serif ;
 }
 
@@ -14,6 +17,10 @@ body{
 
 .half_width img{
     width: 100%;
+}
+
+.p-top{
+    padding-top: 15%;
 }
 
 h2{
@@ -30,8 +37,8 @@ h1{
     color: #EC4C7A;
 }
 
-p{
-    padding: 20px 0;
+.half_width p{
+    padding: 40px 0;
     color: #EC4C7A;
 }
 
@@ -45,7 +52,7 @@ p{
 
 section{
     height: 600px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 .top-section{
     background: url("images/header-bg.png");
@@ -74,12 +81,22 @@ section{
 }
 
 .latest-work{
+    margin-top: 80px;
     margin-left: 10%;
     padding-left: 2%;
     width: 80%;
 }
+
 .latest-work img{
     width: 30%;
+    margin-right: 10px;
+    border: 5px solid lightblue;
+
+    transition: all 1s ease;
+}
+
+.latest-work img:hover{
+    opacity: 0.4;
 }
 
 .work-header{
@@ -87,6 +104,7 @@ section{
 }
 
 .client-area{
+    height: 500px;
     text-align: center;
     background: url("images/footer-bg.png");
     background-repeat: no-repeat;
@@ -98,12 +116,18 @@ section{
 }
 
 .client-area h1{
-    padding-bottom: 2%;
+    padding-bottom: 5%;
+}
+
+.client-area .founder{
+    padding: 10px 0;
+    line-height: 2em;
 }
 
 .highlight{
     color: #EC4C7A !important;
 }
+
 #anchor-btn{
     display: inline-block;
     background: linear-gradient(45deg, #605995,#EC4C7A);
@@ -113,12 +137,12 @@ section{
     text-decoration: none;
     color: #fff;
     border-radius: 10px;
-
 }
 
 .email{
     font-size: 30px;
     padding: 2% 0;
+    display: block;
 }
 
 footer{
